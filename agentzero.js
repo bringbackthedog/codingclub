@@ -11,15 +11,17 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
   console.log('Dialogflow Request headers: ' + JSON.stringify(request.headers));
   console.log('Dialogflow Request body: ' + JSON.stringify(request.body));
  
-  //get a random number < 10 
+  //get a random number < 10
   const randomNum = Math.random()*10;
   
-  function welcome(agent) {  
-    if (randomNum >= 5) {
-    	agent.add(`What do you want!`);
-    } else {
-    	agent.add(`New agent, who dis?!`);
-    }
+  function welcome(agent) { 
+    var welcomeMsgList = ["What do you want!", 
+                           "New agent, who dis?!",
+                          '<speak> <audio clipEnd="6s" src="https://actions.google.com/sounds/v1/science_fiction/robot_code.ogg/" </speak>',
+                           'Hello human'];
+    var welcomeMsgNb = Math.floor(Math.random()*welcomeMsgList.length);
+	agent.add(welcomeMsgList[welcomeMsgNb]);
+    
   }
  
   function fallback(agent) {
