@@ -17,7 +17,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
   function welcome(agent) { 
     var welcomeMsgList = ["What do you want!", 
                            "New agent, who dis?!",
-                          '<speak> <audio clipEnd="6s" src="https://actions.google.com/sounds/v1/science_fiction/robot_code.ogg/" </speak>',
+                          '<speak> <prosody pitch="low"> Humanoid identified </prosody><audio clipEnd="6s" src="https://actions.google.com/sounds/v1/science_fiction/robot_code.ogg"/> </speak>',
                            'Hello human'];
     var welcomeMsgNb = Math.floor(Math.random()*welcomeMsgList.length);
 	agent.add(welcomeMsgList[welcomeMsgNb]);
