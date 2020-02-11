@@ -7,7 +7,10 @@
 ---
 
 - Then, import it into your dialogflow agent  
-  ![importIntents.PNG](https://github.com/bringbackthedog/codingclub/blob/master/images/importIntents.PNG)  
+  ![importIntents.PNG](https://github.com/bringbackthedog/codingclub/blob/master/images/importIntents.PNG)   
+  
+  ![uploading_agentzeroIntents.PNG](https://github.com/bringbackthedog/codingclub/blob/master/images/uploading_agentzeroIntents.PNG)   
+  
 
 ---
 
