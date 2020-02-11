@@ -17,7 +17,9 @@
 ---
 
 - Next, enable the inline editor and copy the content of [agentzero.js](https://github.com/bringbackthedog/codingclub/blob/master/agentzero.js) into dialogflow's inline editor, overwriting any content currently in the editor.  
-- Lastly, hit `deploy` 
+
+- And lastly, hit `deploy`  
+
 ![inlineEditor.PNG](https://github.com/bringbackthedog/codingclub/blob/master/images/inlineEditor.PNG)  
 
 ---
