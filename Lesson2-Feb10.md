@@ -24,9 +24,9 @@
 
 Once deployed, the assistant will be ready availble immediately. Try asking it "What is Superman's alter-ego?".
 
-Feel free to poke around in the inline editor to adds some jokes. 
+Feel free to poke around in the inline editor to add jokes. 
 
-- Lenz
+-Lenz
 
 
 
